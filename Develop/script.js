@@ -5,9 +5,19 @@ var generateBtn = document.querySelector("#generate");
 function generatePassword() {
   var passwordLength = prompt("What length should the password be?")
   var numbers = prompt("Include numbers?")
-  var lowCase = prompt("Include lowercase letters?")
+  var lowerCase = prompt("Include lowercase letters?")
   var upperCase = prompt("Include uppercase letters?")
   var specialCharacters = prompt("Include special characters?")
+
+  // Turn string into a number 
+  var lengthInt = parseInt(passwordLength)
+
+  // At least one character alert
+  if (!passwordLength && !numbers && !lowerCase && !upperCase && !specialCharacters) {
+    alert("At least one character type should be selected.")
+  }
+
+  return
 }
 
 
