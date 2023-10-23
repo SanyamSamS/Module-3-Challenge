@@ -9,7 +9,7 @@ var specialCharacterOptions = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
 
 // Password generation function
 function generatePassword() {
-  var passwordLength = prompt("What length should the password be? (8 to 128 characters");
+  var passwordLength = prompt("What length should the password be? (8 to 128 characters)");
   var numbers = confirm("Include numbers?");
   var lowerCase = confirm("Include lowercase letters?");
   var upperCase = confirm("Include uppercase letters?");
