@@ -1,4 +1,4 @@
-# Module-3-Challenge
+# Password Generator
 Random password generator
 
 ## Description 
@@ -13,4 +13,4 @@ https://www.w3schools.com/jsref/met_win_alert.asp
 ![image](https://github.com/SanyamSamS/Module-3-Challenge/assets/144437895/55c889e1-333a-4ad8-8206-c6e50b14a98e)
 
 ## Deployed applcation
-https://sanyamsams.github.io/Module-3-Challenge/
+https://sanyamsams.github.io/Password-generator/
